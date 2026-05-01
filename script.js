@@ -246,7 +246,7 @@ function showPrevTestimonial() {
 function startAutoSlide() {
   autoSlideTimer = setInterval(() => {
     showNextTestimonial();
-  }, 30000); // Change slide every 30 seconds
+  }, 6000); // Change slide every 06 seconds
 }
 
 function resetAutoSlide() {
